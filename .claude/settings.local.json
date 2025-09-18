@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(flutter:*)",
+      "Bash(mkdir:*)",
+      "Bash(del \"C:\\Users\\PC\\Desktop\\match3\\lib\\widgets\\attack_meter.dart\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

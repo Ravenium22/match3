@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "953843101514",
+    "firebase_url": "https://match3-7093d-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "match3-7093d",
+    "storage_bucket": "match3-7093d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953843101514:android:3455b7817b52eba9851bb3",
+        "android_client_info": {
+          "package_name": "com.example.match3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiebcYhx50L_7aIxhapzMuqXvOnK6bkM8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

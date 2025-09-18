@@ -1,0 +1,28 @@
+{
+  "rules": {
+    "rooms": {
+      "$roomId": {
+        ".read": "auth != null",
+        ".write": "auth != null",
+        ".indexOn": ["createdAt", "hostId", "state"],
+        "players": {
+          "$playerId": {
+            ".write": "auth != null && auth.uid == $playerId"
+          }
+        },
+        "gameState": {
+          ".read": "auth != null",
+          ".write": "auth != null",
+          "updates": {
+            ".indexOn": ["timestamp", "playerId"]
+          }
+        }
+      }
+    },
+    "quickMatch": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+      ".indexOn": "createdAt"
+    }
+  }
+}
